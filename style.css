@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(to right,#333745, #23CE6B);
+
+}
+
+form {
+    justify-items: center;
+}
+
+ h1 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 70px;
+    color: #EDF5FC;
+ }
+ h1:hover{
+     color:yellowgreen;
+     text-shadow: 2px 2px #FF0000
+ }
+p {
+    justify-content: center;
+    color: yellow;
+    font-family: cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+input[type="text"] {
+    margin: 0 auto;
+    width: 226px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+}
+
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+     width: 100%;
+     font-size: 20px;
+    font-family: system-ui;
+    transition: width 2s;
+}
